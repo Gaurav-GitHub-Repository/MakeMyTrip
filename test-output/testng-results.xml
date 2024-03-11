@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-18T14:16:28 IST" name="Suite" finished-at="2024-02-18T14:16:57 IST" duration-ms="29005">
+    <groups>
+      <group name="FunctionalTest">
+        <method signature="TestCase2.functional()[pri:0, instance:TestCase.TestCase2@1df8da7a]" name="functional" class="TestCase.TestCase2"/>
+      </group> <!-- FunctionalTest -->
+      <group name="InitializeBrowser">
+        <method signature="TestCase2.InitializeBrowser(java.lang.String,java.lang.String)[pri:0, instance:TestCase.TestCase2@1df8da7a]" name="InitializeBrowser" class="TestCase.TestCase2"/>
+      </group> <!-- InitializeBrowser -->
+    </groups>
+    <test started-at="2024-02-18T14:16:28 IST" name="ChromeTest" finished-at="2024-02-18T14:16:57 IST" duration-ms="29005">
+      <class name="TestCase.TestCase2">
+        <test-method signature="InitializeBrowser(java.lang.String,java.lang.String)[pri:0, instance:TestCase.TestCase2@1df8da7a]" started-at="2024-02-18T14:16:28 IST" name="InitializeBrowser" finished-at="2024-02-18T14:16:37 IST" duration-ms="8492" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ChromeBrowser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.makemytrip.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeBrowser -->
+        <test-method signature="functional()[pri:0, instance:TestCase.TestCase2@1df8da7a]" started-at="2024-02-18T14:16:37 IST" name="functional" finished-at="2024-02-18T14:16:57 IST" duration-ms="20153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- functional -->
+      </class> <!-- TestCase.TestCase2 -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
